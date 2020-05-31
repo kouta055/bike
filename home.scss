@@ -1,0 +1,131 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+/* reset ================================ */
+.main {
+  position: absolute;
+  width:100%;
+  height:100%;
+  background-size:cover;
+  background-image: url(https://lh3.googleusercontent.com/v9_YG_uMiFfwsVpkU7z_CrI34F7PI3_lnPdfdepVD7bQGP-wWtipimSHicb5HRRhxU_4bMCrnf6lGx915yIqiTsgKuYfWwlvT1VQ0XwjrV5TVtAIB0d_UnrYVv9VABNBnZkZ8u-gqvkJn_usdyi_4nPhrkPrMlU7shuEFE4yzGQuekDipKk5JVJBYX4Va6YI_4D_CxNL9pTylDsF0lXgrA5UjistsNdBWW3KCi6LZARcuPP3M4ZkgfkPHLDcel_owbZ4ib02k-HYFU4NWUzdjo6si_wFRiaNUb_7Kxd1gc3jaCyqLZSGXygaUNRcOYg7kELnw2N3ILijqicgwBKwfPQ1FCHfFhTLrLHI7Vy5dUpzpeT6M7Wh9RPApqePXnvLLvvMeZtPtyavwdDWeiCdiClSV4Wtib6njmcB3hQnDhkxc1j5L5iPkKJ5Duy-rO1rDmLd2eXRpPNUkuImS61FaPG3loNP72tIt77O8w9CHSrCzy6t90XSZHaEYl6P84EJsXA9TaVmzypBHjzC5tVTX9-1cdx36SooDSp3Nz6uG7h-f_LK1ecHjmsdsCMd42M1p8lrPlWlo72zQohvD-ervDNc2KFBAyue7mymkRYdWSAKBZ0vYuQKtCivNmT-fcXzcBGEHeBfYa8jMYWHIZuIMxeWx9tLzWGtI0vwrUDW-lDRFOa-XRk51AcbMC2gFA=w951-h634-no)
+}
+
+.fas{
+  position:fixed;
+  top:7%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-size:50px;
+  background-color:#7fffd4;
+  padding-top:25px;
+  margin:10px;
+  height:70px;
+  width:1200px;
+  border-radius:10px;
+  text-align:center;
+}
+
+.top-message{
+  width:500px;
+  padding:250px;
+  margin: 0 auto;
+}
+.dai{
+  font-size:40px;
+  text-align:center;
+}
+
+.dai2{
+  font-size:30px;
+  text-align:center;
+}
+
+.btn{
+  color:whitesmoke;
+  font-family:'Lucida Console';
+  font-weight:normal;
+  opacity:0.8;
+  list-style:none;
+  background-color:#239b76;
+}
+
+.sabu{
+  background-color:#55acee;
+  text-align:center;
+  width:160px;
+  margin: 0 auto;
+  margin-top:80px;
+  box-shadow: 0 5px #778899;
+  border-radius:10px;
+  cursor:pointer;
+  position:relative;
+}
+
+.sabu i{
+  margin-right:100px;
+}
+
+.sabu a{
+  display:block;
+  position:absolute;
+  bottom:-5px;
+  left:20px;
+  width:100%;
+  height:100%;
+  font-size:25px;
+  text-decoration:none;
+  color:#000;
+  
+}
+
+.sabu:active{
+  position:relative;
+  top: 5px;
+  box-shadow:none;
+}
+
+.face{
+  background-color:#55acee;
+  text-align:center;
+  width:160px;
+  margin: 0 auto;
+  margin-top:30px;
+  box-shadow: 0 5px #778899;
+  border-radius:10px;
+  cursor:pointer;
+  position:relative;
+}
+
+.face i{
+  margin-right:110px;
+}
+
+.face a{
+  display:block;
+  position:absolute;
+  bottom:-5px;
+  left:20px;
+  width:100%;
+  height:95%;
+  font-size:23px;
+  text-decoration:none;
+  color:#000;
+}
+
+.face:active{
+  position:relative;
+  top: 5px;
+  box-shadow:none;
+}
+
+.login{
+  position:absolute;
+  right:15px;
+  top:10px;
+  padding:7px;
+  color:black;
+  font-weight:bold;
+  background-color: #7fffd4;
+  border-radius:10px;
+  text-decoration:none;
+}
