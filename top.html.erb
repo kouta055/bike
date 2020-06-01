@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KApp</title>
+    <%= csrf_meta_tags %>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheets" href="home.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="/k_app/app/assets/javascripts/application.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/css/drawer.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/js/drawer.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" /><style>h1{text-align: center;}</style>
+  </head>
+  <body>
+     <body class="drawer drawer--left">
+      <header role="banner">
+       <button type="button" class="drawer-toggle drawer-hamburger" style="background-color:#7fffd4;">
+        <span class="sr-only">toggle navigation</span>
+        <span class="drawer-hamburger-icon"></span>
+       </button>
+       <nav class="drawer-nav" role="navigation" style="background-color:#7fffd4;">
+        <ul class="drawer-menu">
+         <li><a class="drawer-title" herf="#">メニュー</a></li>
+         <li><a class="drawer-menu-item" href="https://photos.google.com/">Googleアルバム</a></li>
+         <li><a class="drawer-menu-item" href="https://myaccount.google.com/?tab=kk">Googleアカウント</a></li>
+         <li><a class="drawer-menu-item" href="https://photos.google.com/">メニュー</a></li>
+         <li><a class="drawer-menu-item" href="#">メニュー</a></li>
+        </ul>
+       </nav>
+      </header>
+      <main role="main">
+   <div class="main top-main">
+    <div class="top-message">
+     <li class="btn dai">今日のバイクライフ</li>
+     <li class="btn dai2">今のバイク情報を共有しよう！</li>
+     <a href="/k_app/app/views/home/top.html.erb" class="login">ログイン</a>
+     <h1 class="sabu">
+      <i class="fab fa-twitter"></i>
+      <a href="https://twitter.com/login?lang=ja">Twitter</a>
+      <h1 class="face">
+      <i class="fab fa-facebook-f"></i>
+      <a href="https://ja-jp.facebook.com/">Facebook</a>
+      </h1>
+     </h1>
+     </h1>
+     <h1 calss="face">
+    </div>
+   </div>
+     <i class="fas fa-paw"></i>
+      </main>
+      <script>
+       $(document).ready(function(){
+        $('.drawer').drawer();
+       });
+      </script>
+     </body>
+     <body>
+    </div>
+    <%= yield %>
+  </body>
+</html>
